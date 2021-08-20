@@ -6,7 +6,7 @@ import "fmt"
  * Learn Golang 02
  *
  * Variable, Basic Data Type, Aritmetic Operator and
- * Type conversion
+ * Type conversion, Constants
  */
 func main() {
 	// variable declaration
@@ -25,23 +25,23 @@ func main() {
 
 	// Aritmetic Operator
 	fmt.Println("1. Basic math operations:")
-	fmt.Printf("   %d + %d = %d\n", x, y, x+y) // addition
-	fmt.Printf("   %d - %d = %d\n", x, y, x-y) // subtraction
-	fmt.Printf("   %d * %d = %d\n", x, y, x*y) // multiplication
-	fmt.Printf("   %d / %d = %d\n", x, y, x/y) // division
+	fmt.Printf("   %d + %d = %d\n", x, y, x+y)  // addition
+	fmt.Printf("   %d - %d = %d\n", x, y, x-y)  // subtraction
+	fmt.Printf("   %d * %d = %d\n", x, y, x*y)  // multiplication
+	fmt.Printf("   %d / %d = %d\n", x, y, x/y)  // division
 	fmt.Printf("   %d %% %d = %d\n", x, y, x%y) // modulo division
 	fmt.Println("")
 
 	fmt.Println("2. Volume of Circle:")
 	// support unicode character
-	var π float64 = 3.14 // declare and assign
-	r := 7 // type inference
+	const π float64 = 3.14 // declare & assign constant variable
+	r := 7                 // type inference
 
 	fmt.Printf("   Given a circle with r = %d, and π = %.2f.\n", r, π)
 	fmt.Println("   What is the volume of the circle?...")
 
 	// solution
-	d := float64(r*r)
+	d := float64(r * r)
 	V := d * π
 	fmt.Println("   Soln:")
 	fmt.Printf("   \tV = π * r^2\n")
