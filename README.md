@@ -5,6 +5,6 @@
 03. [x] Control Flow
 04. [x] More Types
 05. [x] Functions
-06. [ ] Pointer
+06. [x] Pointer
 06. [ ] Concurrency
 07. [ ] Packages
