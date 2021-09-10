@@ -6,5 +6,6 @@
 04. [x] More Types
 05. [x] Functions
 06. [x] Pointer
-06. [ ] Concurrency
-07. [ ] Packages
+07. [x] Structs & Interfaces
+08. [ ] Concurrency
+09. [ ] Packages
