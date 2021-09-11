@@ -7,5 +7,5 @@
 05. [x] Functions
 06. [x] Pointer
 07. [x] Structs & Interfaces
-08. [ ] Concurrency
+08. [x] Concurrency
 09. [ ] Packages
